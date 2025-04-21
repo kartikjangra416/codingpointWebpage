@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary-color: #3299fe;
+    --accent-color: #66cbff;
+    --text-color: #333;
+    --link-color: #1873ce;
+    --background-color: #f5f5f5;
+    --light-gray: #e0e0e0;
+    --gray:#b0b0b0;
+    --dark-gray: #333;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background-color: var(--background-color);
+    padding: 0.1rem;
+}
+.header-content{
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo-icon{
+    height: 2rem;
+    width: 2rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+    gap: 0.2rem;
+}
+.logo-text{
+    font-size: 2rem;
+    font-weight: bold
+}
+
+.nav
+{
+    display: none;
+    gap: 1.5rem;
+}
+@media screen and (min-width: 768px){
+    .nav{
+        display: flex;
+    }
+}
+
+.nav-link{
+    color: #848282;
+    font-size: 1.125rem;
+    font-weight:600; 
+    transition: color 0.1s;
+}
+.nav-link:hover{
+    color: var(--link-color);
+}
+.Contact-button{
+    display: none;
+    border: none;
+    border-radius: 0.375rem;
+    background-color: var(--primary-color);
+    color:var(--background-color);
+    transform: all 0.1s;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+@media screen and (min-width: 768px){
+    .Contact-button{
+        display: block;
+    }
+}
+
+.Contact-button:hover{
+    background-color: #1e2f43;
+}
