@@ -255,11 +255,11 @@ display: none;
     color: var(--gray);
     display: flex;
     gap: 0.5rem;
-}
+
 .comp-logo{
     height: 1.56rem;
 }
-
+}
 .company-text{
     font-size: 1rem;
 }
@@ -390,16 +390,21 @@ display: none;
 
 .testimonial-container{
     background-color: var(--background-color);
-    padding: 2rem;
+    padding: 2.5rem;
     margin: 0 auto;
-    max-width: 1280px;
     border-radius: 0.675rem;
 }
 .testimonial-content{
+    max-width: 1280px;
         display: flex;
     flex-direction: column;
     align-items: center; 
     gap: 2rem;
+
+    
+    padding: 0.6rem;
+    margin: 0 auto;
+    margin-top: 2rem
 }
 .testimonial-title{
     font-size: 1.875rem;
@@ -438,7 +443,7 @@ display: none;
 .testimonial-details p{
     font-size: 1rem;
     color: var(--gray);
-}
+} 
 
 .newscontainer {
     background-color: var(--background-color);
@@ -550,6 +555,9 @@ display: none;
       height: auto;
       padding: 1rem;
     }
+    .footer-top{
+        align-items: center;
+    }
   
     .newscontent {
       flex-direction: column;
@@ -618,6 +626,7 @@ display: none;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .footer{
     max-width: 1280px;
@@ -631,7 +640,7 @@ display: none;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 10rem;
+        gap: 2rem;
     }
     .footer-top,
     .footer-grid{
@@ -643,10 +652,6 @@ display: none;
     display: flex;
     flex-direction: column;
 }
-/* .comp-logo{
-    display: flex;
-    justify-content: flex-start;
-} */
 
 .filler-text{
     font-size: 1rem;
