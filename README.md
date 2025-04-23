@@ -10,7 +10,7 @@ https://kartikjangra416.github.io/codingpointWebpage/
 
 ## 📸 Preview
 
-![Preview](./assets/Screenshot%20(55).png) <!-- Replace with actual preview screenshot if available -->
+![Preview](./assets/Screenshot%20(55).png) 
 
 ## 🛠️ Tech Stack
 
